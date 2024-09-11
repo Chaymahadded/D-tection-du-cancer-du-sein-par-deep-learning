@@ -6,8 +6,6 @@ Ce projet utilise des techniques d'apprentissage profond, en particulier des ré
 
 - `code/` : Contient les scripts Python pour l'apprentissage des modèles. Chaque script correspond à un modèle entraîné sur des images avec un zoom optique spécifique (40X, 100X, 200X, 400X).
   
-- `dataset/` : Ce dossier contient les données d'entraînement et de test issues de la base de données BreakHis. Les images sont classées en fonction du niveau de zoom (40X, 100X, 200X, 400X) et sont réparties en deux catégories : bénignes et malignes.
-
 - `interface_graphique/` : Contient le code pour l'interface graphique permettant aux utilisateurs de tester de nouvelles images histopathologiques. Cette interface comprend :
   - Une page d'authentification.
   - Une page d'inscription.
@@ -15,7 +13,7 @@ Ce projet utilise des techniques d'apprentissage profond, en particulier des ré
 
 ## Détails sur la Base de Données
 
-La base de données utilisée est [BreakHis](https://www.kaggle.com/datasets/ambarish/breakhis?select=BreaKHis_v), qui contient des images microscopiques de biopsies de tumeurs mammaires, tant bénignes que malignes. Voici quelques caractéristiques des données :
+La base de données utilisée est [BreakHis](https://www.kaggle.com/datasets/ambarish/breakhis?select=BreaKHis_v), qui contient des images microscopiques de biopsies de tumeurs mammaires, tant bénignes que malignes.Les images sont classées en fonction du niveau de zoom (40X, 100X, 200X, 400X) et sont réparties en deux catégories : bénignes et malignes. Voici quelques caractéristiques des données :
 
 - **Dimensions des images** : 700 x 460 pixels, RGB, 24 bits.
 - **Grossissements optiques** : 40X, 100X, 200X, 400X.
